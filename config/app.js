@@ -6,7 +6,7 @@ module.exports = {
     pug: {
         pretty: true,
         data: {
-            goods: require('../data/goods.json')
+            
         }
     }
 }

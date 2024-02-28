@@ -1,6 +1,7 @@
 @import "block/header.css";
 @import "block/logo.css";
 @import "block/advantages.css";
+@import "block/content.css";
 
 body {
     width: 100%;
