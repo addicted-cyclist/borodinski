@@ -1,0 +1,80 @@
+.contact__container {
+  max-width: 940px;
+  margin: 36px auto;
+  background-color: #fff;
+  display: flex;
+}
+
+.contact__info {
+  width: 48%;
+  padding: 50px 60px 50px 70px;
+}
+
+.contact__info-title {
+  font-size: 30px;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contact__info-item {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 28px 0;
+}
+
+.contact__divider {
+  background-image: url("../img/divider-line.png");
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 12px;
+  flex: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.contact__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__navigation-button {
+  display: inline-block;
+  background-color: #000;
+  max-width: 140px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contact__form {
+  width: 48%;
+  padding: 50px 60px 50px 70px;
+}
+
+.contact__form-title {
+  font-size: 30px;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contact__form-fieldset {
+  /* display: flex; */
+  max-width: 100%;
+}
+
+.contact__legend {
+  margin: 28px 0 12px
+}
+.form__input-label {
+}
+.form__input {
+}
+.form__submit-button {
+  display: block;
+}
