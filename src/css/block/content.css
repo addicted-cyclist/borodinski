@@ -2,7 +2,7 @@
   max-width: 940px;
   /* max-height: 420px; */
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #ffffff;
   display: flex;
 }
 
@@ -43,13 +43,18 @@
 
 .content__news-button {
   display: inline-block;
-  background-color: #000;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
   vertical-align: middle;
   padding: 10px 35px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.content__news-button:hover {
+  color: #000000;
+  background-color: bisque;
 }
 
 .content__slider {
@@ -72,10 +77,16 @@
   font: 700 14px/24px 'PT Sans Narrow',sans-serif;
   width: 150px;
   display: inline-block;
-  background-color: #000;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   text-align: center;
   vertical-align: middle;
   padding: 10px 35px;
   text-transform: uppercase;
+}
+
+.content__slider-button:hover {
+  background-color: bisque;
+  color: #000000;
+  border-width: 0;
 }
