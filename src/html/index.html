@@ -11,7 +11,7 @@
         @@include("chunk/header.html")
 
         <main>
-            <!-- <h1>Барбершоп "Бородинский"</h1> -->
+            <h1 class="visually-hidden">Барбершоп "Бородинский"</h1>
             @@include("chunk/logo.html")
             @@include("chunk/advantages.html")
             @@include("chunk/content.html")
@@ -20,37 +20,17 @@
             @@include("chunk/contact.html")
         </main>
 
-        <footer>
-            <p>
-                БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-                АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
-                <a href="map.html">КАК НАС НАЙТИ?</a><br>
-                ТЕЛЕФОН: +7 (495) 666-02-66
-            </p>
-            <div>
-                <p>Давайте дружить!</p>
-                <ul>
-                    <li><a href="#">VK</a></li>
-                    <li><a href="#">FB</a></li>
-                    <li><a href="#">INST</a></li>
-                </ul>
-            </div>
-            <p>
-                Разработано:
-                <a href="#">Alex Antonchi</a>
-            </p>
-        </footer>
+        @@include("chunk/footer.html")
 
-        <section>
+        <!-- <section>
             <h2>Личный кабинет</h2>
             <p>Введите пожалуйста свой логин и пароль</p>
-            <!-- Здесь будет форма -->
             <button type="button">Закрыть</button>
         </section>
 
         <section>
             <h2>Как до нас добраться</h2>
             <button type="button">Закрыть</button>
-        </section>
+        </section> -->
     </body>
 </html>

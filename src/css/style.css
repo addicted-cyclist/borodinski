@@ -3,6 +3,7 @@
 @import "block/advantages.css";
 @import "block/content.css";
 @import "block/contact.css";
+@import "block/footer.css";
 
 body {
   width: 100%;
@@ -15,4 +16,6 @@ body {
   font-weight: 700;
   color: #000;
   line-height: 24px;
+
+  margin: 0;
 }
