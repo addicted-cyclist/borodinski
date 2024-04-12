@@ -1,0 +1,21 @@
+@import "block/header.css";
+@import "block/logo.css";
+@import "block/advantages.css";
+@import "block/content.css";
+@import "block/contact.css";
+@import "block/footer.css";
+
+body {
+  width: 100%;
+  background-image: url("../img/layer@3x.png");
+  background-position: center;
+  background-size: cover;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  line-height: 24px;
+
+  margin: 0;
+}

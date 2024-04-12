@@ -1,0 +1,121 @@
+.contact__container {
+  max-width: 940px;
+  margin: 36px auto;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.contact__info {
+  width: 48%;
+  padding: 50px 60px 50px 70px;
+}
+
+.contact__info-title {
+  margin: 0;
+  font-size: 30px;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.contact__info-item {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 28px 0;
+}
+
+.contact__divider {
+  background-image: url("../img/divider-line.png");
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 12px;
+  flex: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.contact__navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__navigation-button {
+  display: inline-block;
+  background-color: #000000;
+  max-width: 140px;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contact__navigation-button:hover {
+  background-color: bisque;
+  color: #000000;
+}
+
+.contact__form {
+  width: 48%;
+  padding: 50px 60px 50px 70px;
+  text-transform: uppercase;
+}
+
+.contact__form-title {
+  font-size: 30px;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.contact__form-fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__legend {
+  margin: 28px 0 12px;
+}
+
+.form__input-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form__input-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  border: 2px solid #000000;
+  width: 140px;
+  height: 43px;
+}
+
+.form__input::placeholder {
+  padding-left: 16px;
+  font-weight: 700;
+}
+
+.form__submit-button {
+  display: inline-block;
+  height: 43px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.form__submit-button:hover {
+  background-color: bisque;
+  color: #000000;
+  border: none;
+}
