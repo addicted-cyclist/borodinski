@@ -38,3 +38,8 @@ exports.dev = series(
     parallel(html, css, img),
     parallel(watcher, server)
 )
+
+exports.build = series(
+    clear,
+    parallel(html, css, img)
+)
